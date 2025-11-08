@@ -8,7 +8,7 @@ var ModelMap = map[string]string{
 	"o3-pro":                  "o3pro",
 	"gpt-5":                   "gpt5",
 	"gpt-5-think":             "gpt5_thinking",
-	"claude-4.1-opus-think":   "claude41opusthinking",
+	"grok-4":   "grok4",
 }
 var MaxModelMap = map[string]string{
 	"o3-pro":                "o3pro",
@@ -66,3 +66,4 @@ func buildResponseModels() {
 		})
 	}
 }
+
